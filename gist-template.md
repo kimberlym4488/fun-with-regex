@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Fun with Regex
 
-Introductory paragraph (replace this with your text)
+Regular Expression components assist developers behind the scenes. Let's take a peek behind the curtain at the world of 'regex'!
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regular expressions are simple 'code snippets' that can validate user input, find/replace characters, match positions before, after, trim whitespace, and work between characters. The basic built-in logic improves and simplifies a developers work. The components also improve the user experience by expanding allowable user input of lower case/upper case/spacing/symbols. Not only does regex validate input, it can automatically update the input to the correct format 'under the hood'.
 
 ## Table of Contents
 
@@ -18,15 +18,21 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Character Escapes](#character-escapes)
 
 ## Regex Components
-Regular Expression components assist developers behind the scenes. The simple expressions can validate user input, find/replace characters, match positions before, after, trim whitespace, and work between characters. The basic built-in logic improves and simplifies a developers work.  The components also improve the user experience by expanding allowable user input of lower case/upper case/spacing/symbols. Not only does regex validate input, it can automatically update the input to the correct format 'under the hood'.
 
-Regex works with many different programming languages, or engines. There are known as  expression flavors. The flavor highlighted in this tutorial is JavaScript.
-Source: https://www.regular-expressions.info/tutorial.html 
+Regex works with many different programming languages, or engines. There are known as expression flavors. The flavor highlighted in this tutorial is JavaScript.<br>
+Source: https://www.regular-expressions.info/tutorial.html
 
 ### Anchors
 
-Anchors do not match any specific characters at all
+Anchors do not match any specific characters at all. Rather they match -before- or -after- whatever you are attempting to match. <br>
+>Example: 
+```JS
+\A\w matches 'a' in abc
+```
+
 ### Quantifiers
+
+
 
 ### Grouping Constructs
 
@@ -42,4 +48,5 @@ Anchors do not match any specific characters at all
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+As a lifelong learner and lover of puzzles, regex is truly fun to learn. Reverse engineering it, creating my own, and trying to solve problems is why I love coding. Regex is the ideal integration into any programming language. 
+Github: kimberlym4488
